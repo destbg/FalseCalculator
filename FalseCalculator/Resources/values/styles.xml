@@ -1,0 +1,29 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <!-- Button theme. -->
+  <style name="button_calculator">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">0dp</item>
+    <item name="android:layout_rowWeight">1</item>
+    <item name="android:layout_columnWeight">1</item>
+    <item name="android:textSize">25dp</item>
+    <item name="android:onClick">ButtonClick</item>
+  </style>
+
+  <!-- Button secret theme. -->
+  <style name="button_secret">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:padding">@dimen/design_bottom_navigation_active_text_size</item>
+    <item name="android:textSize">25dp</item>
+    <item name="android:onClick">ChooseCalculator</item>
+  </style>
+
+</resources>
